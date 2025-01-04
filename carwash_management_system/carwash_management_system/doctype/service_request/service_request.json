@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-04 19:42:14.916052",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "service_request_id",
+  "customer",
+  "vehicle",
+  "service_type",
+  "scheduled_date_and_time",
+  "status",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "service_request_id",
+   "fieldtype": "Autocomplete",
+   "label": "Service Request ID"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "vehicle",
+   "fieldtype": "Link",
+   "label": "Vehicle",
+   "options": "Vehicle"
+  },
+  {
+   "fieldname": "service_type",
+   "fieldtype": "Link",
+   "label": "Service Type",
+   "options": "Service Type"
+  },
+  {
+   "fieldname": "scheduled_date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Scheduled Date and Time"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Pending\nIn Progress\nCompleted\nCanceled"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-04 19:47:30.261333",
+ "modified_by": "Administrator",
+ "module": "Carwash Management System",
+ "name": "Service Request",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

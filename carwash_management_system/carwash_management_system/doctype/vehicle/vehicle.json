@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-04 17:43:36.837135",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "license_plate_number",
+  "vehicle_type",
+  "vehicle_model",
+  "customer",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "license_plate_number",
+   "fieldtype": "Data",
+   "label": "License Plate Number"
+  },
+  {
+   "fieldname": "vehicle_type",
+   "fieldtype": "Select",
+   "label": "Vehicle Type",
+   "options": "Sedan\nSUV\nTruck\nMotorcycle\nHatchback\nVan\nConvertible\nCoupe"
+  },
+  {
+   "fieldname": "vehicle_model",
+   "fieldtype": "Data",
+   "label": "Vehicle Model"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-04 17:46:47.569214",
+ "modified_by": "Administrator",
+ "module": "Carwash Management System",
+ "name": "Vehicle",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
