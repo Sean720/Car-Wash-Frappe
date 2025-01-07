@@ -8,8 +8,10 @@
   "employee_id",
   "name1",
   "contact_number",
+  "column_break_zema",
   "role",
-  "assigned_service_requests"
+  "assigned_service_requests",
+  "profile_photo"
  ],
  "fields": [
   {
@@ -38,11 +40,20 @@
    "fieldtype": "Link",
    "label": "Assigned Service Requests",
    "options": "Assigned Service Requests"
+  },
+  {
+   "fieldname": "column_break_zema",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "profile_photo",
+   "fieldtype": "Attach",
+   "label": "Profile Photo"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-04 20:02:19.528345",
+ "modified": "2025-01-05 16:48:33.328854",
  "modified_by": "Administrator",
  "module": "Carwash Management System",
  "name": "Employee",

@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:VCL-{###}",
  "creation": "2025-01-04 17:43:36.837135",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -9,6 +10,7 @@
   "vehicle_type",
   "vehicle_model",
   "customer",
+  "column_break_grmn",
   "notes"
  ],
  "fields": [
@@ -38,14 +40,19 @@
    "fieldname": "notes",
    "fieldtype": "Text",
    "label": "Notes"
+  },
+  {
+   "fieldname": "column_break_grmn",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-04 17:46:47.569214",
+ "modified": "2025-01-05 16:55:39.119757",
  "modified_by": "Administrator",
  "module": "Carwash Management System",
  "name": "Vehicle",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

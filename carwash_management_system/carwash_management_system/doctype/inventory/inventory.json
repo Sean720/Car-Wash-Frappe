@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:INV-{###}",
  "creation": "2025-01-04 20:03:53.775080",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "item_name",
   "description",
+  "column_break_neyz",
   "quantity",
   "units_of_measure",
   "reorder_level",
@@ -43,14 +45,19 @@
    "fieldname": "cost_per_unit",
    "fieldtype": "Currency",
    "label": "Cost Per Unit"
+  },
+  {
+   "fieldname": "column_break_neyz",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-04 20:07:20.880451",
+ "modified": "2025-01-05 17:05:21.946669",
  "modified_by": "Administrator",
  "module": "Carwash Management System",
  "name": "Inventory",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

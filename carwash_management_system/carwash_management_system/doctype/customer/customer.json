@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format: CST-{###}",
  "creation": "2025-01-04 17:36:55.188131",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "customer_name",
   "contact_number",
+  "column_break_zfbp",
   "email",
   "vehicle_details"
  ],
@@ -31,14 +33,19 @@
    "fieldtype": "Link",
    "label": "Vehicle Details",
    "options": "Vehicle Details"
+  },
+  {
+   "fieldname": "column_break_zfbp",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-04 17:42:49.354298",
+ "modified": "2025-01-05 16:52:53.939244",
  "modified_by": "Administrator",
  "module": "Carwash Management System",
  "name": "Customer",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

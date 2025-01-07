@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:PMT-{###}",
  "creation": "2025-01-04 19:48:16.285261",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -8,6 +9,7 @@
   "payment_id",
   "service_request",
   "amount",
+  "column_break_evir",
   "payment_method",
   "status",
   "date"
@@ -45,14 +47,19 @@
    "fieldname": "date",
    "fieldtype": "Date",
    "label": "Date"
+  },
+  {
+   "fieldname": "column_break_evir",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-04 19:52:38.291222",
+ "modified": "2025-01-05 17:01:11.598019",
  "modified_by": "Administrator",
  "module": "Carwash Management System",
  "name": "Payment",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

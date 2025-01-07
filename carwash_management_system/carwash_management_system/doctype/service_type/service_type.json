@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:SV-{##}",
  "creation": "2025-01-04 19:39:31.328562",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "service_name",
   "description",
+  "column_break_tpyl",
   "price",
   "estimated_time"
  ],
@@ -30,14 +32,19 @@
    "fieldname": "estimated_time",
    "fieldtype": "Duration",
    "label": "Estimated Time"
+  },
+  {
+   "fieldname": "column_break_tpyl",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-04 19:41:12.931996",
+ "modified": "2025-01-05 16:57:27.616070",
  "modified_by": "Administrator",
  "module": "Carwash Management System",
  "name": "Service Type",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

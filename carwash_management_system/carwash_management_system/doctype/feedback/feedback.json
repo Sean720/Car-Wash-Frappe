@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:FDB-{###}",
  "creation": "2025-01-04 20:08:54.933861",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -9,8 +10,9 @@
   "customer",
   "service_request",
   "rating",
-  "comments",
-  "date"
+  "date",
+  "column_break_rlfc",
+  "comments"
  ],
  "fields": [
   {
@@ -45,14 +47,19 @@
    "fieldname": "date",
    "fieldtype": "Date",
    "label": "Date"
+  },
+  {
+   "fieldname": "column_break_rlfc",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-04 20:11:28.822823",
+ "modified": "2025-01-05 17:07:40.223609",
  "modified_by": "Administrator",
  "module": "Carwash Management System",
  "name": "Feedback",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
